@@ -1,5 +1,7 @@
 #include<stdio.h>
 #include "DefineColorPair.c"
+#include "GetColorPair.c"
+#include "TestColorPair.c"
 #include <assert.h>
 
 void PrintColorCodingReference()
