@@ -1,5 +1,5 @@
-#incude<stdio.h>
-#include "DefineColorPair.h"
+#include<stdio.h>
+#include "DefineColorPair.c"
 #include <assert.h>
 
 void PrintColorCodingReference()
