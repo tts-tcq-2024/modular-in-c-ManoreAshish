@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "DefineColorPair.c"
+#include "TestColorPair.c"
 #include "PrintColorPair.c"
 
 void testNumberToPair(int pairNumber,enum MajorColor expectedMajor,enum MinorColor expectedMinor);
