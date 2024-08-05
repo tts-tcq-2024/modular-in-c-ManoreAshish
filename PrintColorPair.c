@@ -6,9 +6,9 @@
 void PrintColorCodingReference()
 {
     printf("Color Coding Reference Manual:\n");
-    for (int major = 0; major < NUMBER_OF_MAJOR_COLORS; ++major)
+    for (int major = 0; major < numberOfMajorColors; ++major)
       {
-        for (int minor = 0; minor < NUMBER_OF_MINOR_COLORS; ++minor)
+        for (int minor = 0; minor < numberOfMinorColors; ++minor)
           {
             ColorPair colorPair = { (enum MajorColor)major, (enum MinorColor)minor };
             int pairNumber = GetPairNumberFromColor(&colorPair);
